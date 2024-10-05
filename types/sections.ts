@@ -77,6 +77,7 @@ export type ProjectType = {
   name: string;
   desc: string;
   github?: string;
+  tableau?: string
   link?: string;
 };
 
@@ -87,3 +88,13 @@ export type FeedbackType = {
   role: string;
   feedback: string;
 };
+
+// * CERTIFICATE SECTION
+
+export type CertificateType = {
+  name: string;
+  img:string;
+  des?:string;
+  link?:string;
+}
+
