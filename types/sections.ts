@@ -81,13 +81,6 @@ export type ProjectType = {
   link?: string;
 };
 
-// * FEEDBACK SECTION
-
-export type FeedbackType = {
-  name: string;
-  role: string;
-  feedback: string;
-};
 
 // * CERTIFICATE SECTION
 
