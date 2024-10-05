@@ -1,25 +1,30 @@
 import { Icon } from "@iconify/react";
-import React, { Fragment } from "react";
+//import React, { Fragment } from "react";
+import React, {Fragment, useContext} from "react";
 import Fade from "react-reveal/Fade";
 import { Col, Container, Row, UncontrolledTooltip } from "reactstrap";
 import DisplayLottie from "../components/DisplayLottie";
 import { skillsSection } from "../portfolio";
+import {ThemeContext} from "../styles/theme/theme";
 
 const Skills = () => {
+  const {theme} = useContext(ThemeContext);
+	const {textColor, oppositeTextColor, oppositeTextColorLighter} = theme;
   return (
     skillsSection && (
-      <Fade bottom duration={2000}>
-        <Container className="text-center my-5 section section-lg">
-          <h1 className="h1">{skillsSection.title}</h1>
-          <p className="lead">{skillsSection.subTitle}</p>
+      <Fade left duration={2000}>
+      <Container className="text-center my-5 section section-lg">
+          <h1 className={`h1 ${oppositeTextColor}`}>{skillsSection.title}</h1>
+          <p className={`lead ${oppositeTextColor}`}>{skillsSection.subTitle}</p>
           {skillsSection.data.map((section, index) => {
             return (
               <Row className="my-5" key={index}>
                 <Col lg="6" className="order-2 order-lg-1">
+                
                   <DisplayLottie animationPath={section.lottieAnimationFile} />
                 </Col>
                 <Col lg="6" className="order-1 order-lg-2">
-                  <h3 className="h3 mb-2">{section.title}</h3>
+                <h3 className={`h3 mb-2 ${oppositeTextColorLighter}`}>{section.title}</h3>
                   <div className="d-flex justify-content-center flex-wrap mb-2">
                     {section.softwareSkills.map((skill, i) => {
                       return (
@@ -39,7 +44,7 @@ const Skills = () => {
                   </div>
                   <div>
                     {section.skills.map((skill, i) => {
-                      return <p key={i}>{skill}</p>;
+                      return <p className={`  ${oppositeTextColorLighter}`} key={i}>{skill}</p>;
                     })}
                   </div>
                 </Col>
