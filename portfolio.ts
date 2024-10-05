@@ -290,8 +290,8 @@ export const seoData: SEODataType = {
   title: "Athul Nediyedath",
   description: greetings.description,
   author: "Athul Nediyedath",
-  image: "https://avatars.githubusercontent.com/u/59178380?v=4",
-  url: "https://developer-portfolio-1hanzla100.vercel.app",
+  //image: "https://avatars.githubusercontent.com/u/59178380?v=4",
+  //url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
     "Athul",
     "Athul Nediyedath",
