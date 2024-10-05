@@ -1,3 +1,65 @@
 body > div:first-child {
   overflow-x: hidden;
 }
+
+.textColorLightTheme {
+	color: #fff;
+}
+.textColorDarkTheme{
+	color: #0a0c0d;
+}
+.oppositeTextColorLightTheme{
+	color: #0a0c0d;
+}
+.oppositeTextColorDarkTheme{
+	color: #fff;
+}
+.shape-z-index{
+	z-index: 0!important;
+}
+
+.switchThemeLight , .switchThemeLight:focus{
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+	color: #0a0c0d;
+	border: none;
+}
+.switchThemeDark , .switchThemeDark:focus{
+	background-color: #0a0c0d;
+	transition: all 0.3s ease-in-out;
+	color: #fff;
+	border: none;
+}
+.GreetingLottie{
+	background: rgba(246, 246, 246, 0.9);
+	border-radius:40px;
+}
+
+/* Border for light mode */
+.border-light-mode {
+	border: none; /* Light grey border */
+	border-radius: 15px;       /* Rounded corners for the section */
+	padding: 20px;             /* Add some padding for better appearance */
+  }
+  
+  /* Border for dark mode */
+  .border-dark-mode {
+	border: none; /* Dark grey border for dark mode */
+	border-radius: 15px;       /* Keep the same rounded corners */
+	padding: 20px;             /* Same padding as light mode */
+  }
+  
+  /* Background gradient for dark mode */
+  .bg-gradient-dark {
+	background: linear-gradient(87deg, #1f2833, #0b0c10); /* Dark gradient for the section */
+  }
+  
+  /* Other styling for dark mode */
+  .bg-gradient-secondary {
+	background: linear-gradient(87deg, #2e2e2e, #4e4e4e); /* Darker gradient for icon background */
+  }
+
+  
+
+  
+  
