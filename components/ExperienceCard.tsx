@@ -1,11 +1,13 @@
 import React from "react";
 import { Card, CardBody, CardTitle, CardSubtitle, CardText, Col } from "reactstrap";
 import Fade from "react-reveal/Fade";
+//import { motion } from "framer-motion";
 import { ExperienceType } from "../types/sections";
 
 const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }: ExperienceType) => {
   return (
     <Col lg="6">
+      <Fade left duration={2000}>
       <Card style={{ flex: 1 }} className="shadow-lg--hover my-4 shadow border-0 text-center rounded h-100">
         <CardBody className="">
           <img
@@ -43,7 +45,8 @@ const ExperienceCard = ({ companyLogo, company, role, date, desc, descBullets }:
           </CardText>
         </CardBody>
       </Card>
-    </Col>
+    </Fade>
+  </Col>
   );
 };
 
