@@ -6,6 +6,7 @@ import { ProjectType } from "../types/sections";
 const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
   return (
     <Col lg="6">
+      <Fade left duration={2000}>
       <Card className="shadow-lg--hover shadow mt-4">
         <CardBody>
           <div className="d-flex px-3">
@@ -45,7 +46,8 @@ const ProjectsCard = ({ name, desc, github, link }: ProjectType) => {
           </div>
         </CardBody>
       </Card>
-    </Col>
+   </Fade>
+ </Col>
   );
 };
 
