@@ -17,7 +17,7 @@ export const greetings: GreetingsType = {
   title: "Hi all, I'm Athul",
   description:
     "I am a Data Analyst and I am eager to bring my analytical skills and enthusiasm for data to the real world. I have a solid foundation in data analysis, statistical methods, and SQL, and I am driven by a passion for turning raw data into meaningful insights.",
-  resumeLink: "https://drive.google.com/file/d/1_87C5Z_PTGZ0xDMrHR8PleUz30xxzY_2/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1HvlG4bSHzjCOT32C-SXRDnNn1-vlFPSO/view?usp=sharing",
   
 };
 
