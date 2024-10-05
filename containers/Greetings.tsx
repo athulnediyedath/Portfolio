@@ -48,6 +48,7 @@ return (
                                         className={`${buttonColor} btn-icon mb-3 mb-sm-0 ml-1`}
                                         color="default"
                                         href={greetings.resumeLink}
+                                        target="_blank"
                                     >
                   <span className={`btn-inner--icon mr-1 ${oppositeTextColor}`}>
                     <i className="fa fa-file"/>
