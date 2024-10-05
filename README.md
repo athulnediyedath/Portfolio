@@ -1,13 +1,13 @@
 <h1 align="center">Welcome to my Personal Portfolio👋</h1>
 ## Sections
 
-✔️ Summary and About me\n
-✔️ Skills\n
-✔️ Education\n
-✔️ Work Experience\n
-✔️ Feedbacks\n
-✔️ Projects\n
-✔️ Github Profile\n
+✔️ Summary and About me\
+✔️ Skills\
+✔️ Education\
+✔️ Work Experience\
+✔️ Feedbacks\
+✔️ Projects\
+✔️ Github Profile
 
 ## Technologies Used
 
