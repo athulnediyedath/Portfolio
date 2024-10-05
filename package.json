@@ -1,10 +1,10 @@
 {
-  "name": "developer-portfolio",
+  "name": "portfolio",
   "version": "2.0.0",
-  "description": "Software Developer Portfolio Template built with react.js bootstrap that helps you showcase your work and skills as a software developer.",
+  "description": "My personalized portfolio built with React.js and Bootstrap.",
   "main": "index.js",
-  "repository": "https://github.com/1hanzla100/hanzla-portfolio.git",
-  "author": "Hanzla Tauqeer",
+  "repository": "https://github.com/athulnediyedath/Portfolio.git",
+  "author": "Athul Nediyedath",
   "license": "MIT",
   "scripts": {
     "dev": "next dev",
