@@ -2,9 +2,13 @@ import React from "react";
 import { Card, CardBody, Badge } from "reactstrap";
 import { EducationType } from "../types/sections";
 import Fade from "react-reveal/Fade";
+//import { motion } from "framer-motion";
+
+
 
 const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBullets }: EducationType) => {
   return (
+    <Fade left duration={2000}>
     <Card className="shadow-lg--hover shadow mt-4">
       <CardBody>
         <div className="d-flex px-3">
@@ -31,7 +35,11 @@ const EducationCard = ({ schoolName, subHeader, duration, desc, grade, descBulle
         </div>
       </CardBody>
     </Card>
+  </Fade> 
   );
 };
 
 export default EducationCard;
+
+
+
