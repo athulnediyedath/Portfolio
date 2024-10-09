@@ -29,7 +29,7 @@ $ git clone https://github.com/<your-username>/developer-portfolio.git
 2. Go into the repository
 
 ```bash
-$ cd portfolio
+$ cd Portfolio
 ```
 
 3. Install dependencies
